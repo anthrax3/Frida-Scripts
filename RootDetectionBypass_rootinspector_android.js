@@ -1,5 +1,5 @@
-# Author: Sahil Dhar
-# Description: Bypass All checks from com.devadvance.rootinspector-v1.0.apk
+// Author: Sahil Dhar
+// Description: Bypass All checks from com.devadvance.rootinspector-v1.0.apk
 
 Java.perform(function(){
 
