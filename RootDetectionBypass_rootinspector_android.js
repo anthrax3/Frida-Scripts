@@ -2,10 +2,7 @@
 // Description: Bypass All checks from com.devadvance.rootinspector-v1.0.apk
 
 Java.perform(function(){
-
-	var string_returntype = Java.use("java.lang.String");
-	var bool_returntype = Java.use("java.lang.Boolean");
-	
+	var r = Java.use("com.devadvance.rootinspector.Root");
 	r.checkfopen.implementation = function(ret){
 		console.log("Inside checkfopen() ");
 		return false;
